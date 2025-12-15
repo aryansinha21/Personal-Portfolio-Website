@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> <!-- Google Fonts for clean typography -->
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <h1 class="logo">My Portfolio</h1>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Hello, I'm [Your Name]</h1>
+                <p>A passionate [Your Profession, e.g., Web Developer] creating amazing digital experiences.</p>
+                <a href="#about" class="btn">Learn More</a>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/profile.jpg" alt="Profile picture of [Your Name]">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a [brief description, e.g., creative web developer with 5 years of experience]. I love building responsive websites and solving complex problems. In my free time, I enjoy [hobbies].</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>HTML & CSS</h3>
+                    <p>Proficient in creating responsive layouts.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Experienced in DOM manipulation and frameworks.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>React</h3>
+                    <p>Building dynamic user interfaces.</p>
+                </div>
+                <!-- Add more skills as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="assets/images/project1.jpg" alt="Project 1 screenshot">
+                    <h3>Project Title 1</h3>
+                    <p>Description of the project.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="assets/images/project2.jpg" alt="Project 2 screenshot">
+                    <h3>Project Title 2</h3>
+                    <p>Description of the project.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
